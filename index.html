@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santhosh Andavar — Full-Stack Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SA</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#expertise" class="mobile-link">Expertise</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-inner container">
+      <div class="hero-content">
+        <span class="hero-tag">
+          <span class="hero-tag-dot"></span>
+          Open to full-time opportunities
+        </span>
+        <h1 class="hero-name">Santhosh<br /><span class="hero-name-accent">Andavar</span></h1>
+        <p class="hero-role">Full-Stack Software Engineer</p>
+        <p class="hero-desc">
+          CS grad (GPA 3.6) with production experience at <strong>CrowdStrike</strong> and <strong>Cleveland Clinic</strong>.
+          I build full-stack systems — scalable APIs, responsive UIs, cloud infrastructure,
+          and GenAI features — across Java, Python, TypeScript, React, and AWS.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="Santhosh_Andavar_Resume_General.pdf" download class="btn btn-secondary">
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Production<br />Internships</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">3.6</span>
+            <span class="stat-label">GPA<br />CS Degree</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">85%</span>
+            <span class="stat-label">Test Coverage<br />Achieved</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">8+</span>
+            <span class="stat-label">Industry<br />Certifications</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-ring">
+          <div class="hero-photo-wrap">
+            <img src="profile.jpg" alt="Santhosh Andavar" class="hero-photo" id="heroPhoto" />
+            <div class="hero-photo-fallback" id="heroFallback">SA</div>
+          </div>
+        </div>
+        <div class="hero-badge hero-badge-1">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          AWS Certified
+        </div>
+        <div class="hero-badge hero-badge-2">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          Full-Stack
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About + Skills -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Background</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a full-stack software engineer and recent Computer Science graduate from
+            Cleveland State University (BS, GPA 3.6). I have hands-on production experience
+            from internships at <strong>CrowdStrike</strong> and <strong>Cleveland Clinic</strong>,
+            where I built and shipped real features under senior-engineer mentorship.
+          </p>
+          <p>
+            I'm comfortable across the entire stack — Java/Spring Boot on the backend,
+            React/Next.js on the frontend, Python/FastAPI for AI microservices, and
+            AWS + Docker + Kubernetes for deployment. I've also shipped GenAI features
+            including RAG pipelines, embeddings, and LLM integrations using OpenAI and Anthropic.
+          </p>
+          <p>
+            I write clean, well-tested code, work well in Agile teams, and take ownership
+            from design through deployment and on-call support.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Production experience at Fortune 500 companies
+            </div>
+            <div class="highlight-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Full-stack, cloud, mobile & GenAI expertise
+            </div>
+            <div class="highlight-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              AWS Certified Solutions Architect
+            </div>
+            <div class="highlight-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Agile, TDD, CI/CD, microservices
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-wrap">
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4>Languages</h4>
+              <div class="skill-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Python</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">SQL</span>
+                <span class="tag">C++</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Frontend & Mobile</h4>
+              <div class="skill-tags">
+                <span class="tag">React</span>
+                <span class="tag">Next.js</span>
+                <span class="tag">React Native</span>
+                <span class="tag">Angular</span>
+                <span class="tag">Redux</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Backend</h4>
+              <div class="skill-tags">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">NestJS</span>
+                <span class="tag">GraphQL</span>
+                <span class="tag">Microservices</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Databases</h4>
+              <div class="skill-tags">
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">DynamoDB</span>
+                <span class="tag">Redis</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">pgvector</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Cloud & DevOps</h4>
+              <div class="skill-tags">
+                <span class="tag">AWS</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Kubernetes</span>
+                <span class="tag">GitHub Actions</span>
+                <span class="tag">Terraform</span>
+                <span class="tag">Jenkins</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>AI / GenAI</h4>
+              <div class="skill-tags">
+                <span class="tag">RAG</span>
+                <span class="tag">LangChain</span>
+                <span class="tag">OpenAI API</span>
+                <span class="tag">Claude API</span>
+                <span class="tag">Embeddings</span>
+                <span class="tag">pgvector</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise -->
+  <section class="section section-alt" id="expertise">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Capabilities</span>
+        <h2 class="section-title">What I Build</h2>
+      </div>
+      <div class="expertise-grid">
+
+        <div class="expertise-card" style="--card-color: #2563eb;">
+          <div class="expertise-icon" style="background: #eff6ff; color: #2563eb;">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><polyline points="7 8 12 13 17 8"/></svg>
+          </div>
+          <h3 class="expertise-title">Full-Stack Engineering</h3>
+          <p class="expertise-desc">
+            End-to-end web apps from database schema to pixel-perfect UI. REST and GraphQL APIs,
+            server-side rendering, reusable component systems, and accessibility-first frontends.
+          </p>
+          <div class="expertise-tech">
+            <span>React</span><span>Next.js</span><span>Spring Boot</span><span>Node.js</span><span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="expertise-card" style="--card-color: #7c3aed;">
+          <div class="expertise-icon" style="background: #f5f3ff; color: #7c3aed;">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/></svg>
+          </div>
+          <h3 class="expertise-title">Cloud & DevOps</h3>
+          <p class="expertise-desc">
+            Production deployments on AWS with Docker and Kubernetes (EKS). CI/CD pipelines,
+            feature flags, safe-deploy patterns, CloudWatch observability, and on-call incident response.
+          </p>
+          <div class="expertise-tech">
+            <span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>GitHub Actions</span>
+          </div>
+        </div>
+
+        <div class="expertise-card" style="--card-color: #059669;">
+          <div class="expertise-icon" style="background: #ecfdf5; color: #059669;">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3 class="expertise-title">AI / GenAI Systems</h3>
+          <p class="expertise-desc">
+            RAG pipelines over custom corpora with embeddings and pgvector. LLM integrations
+            (OpenAI, Anthropic Claude), voice analysis with Whisper, and computer-vision
+            microservices with PyTorch and OpenCV.
+          </p>
+          <div class="expertise-tech">
+            <span>RAG</span><span>LangChain</span><span>OpenAI</span><span>Claude</span><span>pgvector</span>
+          </div>
+        </div>
+
+        <div class="expertise-card" style="--card-color: #d97706;">
+          <div class="expertise-icon" style="background: #fffbeb; color: #d97706;">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3 class="expertise-title">Mobile Development</h3>
+          <p class="expertise-desc">
+            Cross-platform iOS and Android apps with React Native and Expo. Stripe payment
+            flows, encrypted media pipelines (AWS S3 KMS), background job queues (BullMQ),
+            and real-time features.
+          </p>
+          <div class="expertise-tech">
+            <span>React Native</span><span>Expo</span><span>Stripe</span><span>AWS S3</span><span>Redis</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top-bar" style="background: linear-gradient(135deg, #1e40af, #6d28d9);"></div>
+          <div class="project-body">
+            <div class="project-header">
+              <div class="project-title-row">
+                <span class="project-icon">&#127760;</span>
+                <h3 class="project-title">MyVisaPrep AI</h3>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" title="GitHub">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="#" class="project-link" title="Live demo">
+                  <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <p class="project-desc">
+              A GenAI-powered mock interview platform that helps international applicants
+              prepare for U.S. visa interviews with realistic, on-demand sessions. Uses RAG
+              over a curated visa Q&amp;A corpus with embeddings and pgvector, generating
+              context-aware questions and dynamic follow-ups based on user answers.
+            </p>
+
+            <div class="project-achievement">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              Real-time voice confidence scoring via Whisper — pitch, pacing, and filler-word analysis
+            </div>
+
+            <div class="project-tech">
+              <span class="tag tag-sm">Python</span>
+              <span class="tag tag-sm">FastAPI</span>
+              <span class="tag tag-sm">RAG</span>
+              <span class="tag tag-sm">pgvector</span>
+              <span class="tag tag-sm">Whisper</span>
+              <span class="tag tag-sm">OpenAI</span>
+              <span class="tag tag-sm">PostgreSQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top-bar" style="background: linear-gradient(135deg, #059669, #d97706);"></div>
+          <div class="project-body">
+            <div class="project-header">
+              <div class="project-title-row">
+                <span class="project-icon">&#128170;</span>
+                <h3 class="project-title">FYX — AI Fitness &amp; Nutrition</h3>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" title="GitHub">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="#" class="project-link" title="Live demo">
+                  <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <p class="project-desc">
+              Startup-grade mobile app with body-composition analysis, personalized workout/meal
+              planning, and a Stripe-based $50 accountability loop with refund logic. Architected
+              a Python AI microservice (FastAPI + PyTorch + OpenCV) for body classification,
+              pose analysis, and food recognition, called by a NestJS backend over REST.
+            </p>
+
+            <div class="project-achievement">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              Privacy-first encrypted media pipeline — AWS S3 SSE-KMS, zero human access to raw body images
+            </div>
+
+            <div class="project-tech">
+              <span class="tag tag-sm">React Native</span>
+              <span class="tag tag-sm">NestJS</span>
+              <span class="tag tag-sm">FastAPI</span>
+              <span class="tag tag-sm">PyTorch</span>
+              <span class="tag tag-sm">AWS S3 KMS</span>
+              <span class="tag tag-sm">Stripe</span>
+              <span class="tag tag-sm">BullMQ</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Work History</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-company-block">
+                <div class="company-label crowdstrike">CrowdStrike</div>
+                <h3 class="timeline-role">Software Engineer Intern</h3>
+                <p class="timeline-location">USA &middot; Remote</p>
+              </div>
+              <span class="timeline-date">Apr 2025 – May 2026</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built full-stack features in Java (Spring Boot), TypeScript/Node.js, and Python (FastAPI) for a high-scale production cybersecurity platform.</li>
+              <li>Designed REST APIs across a microservice architecture with PostgreSQL, DynamoDB, and Redis persistence, deployed to AWS via Docker and Kubernetes (EKS).</li>
+              <li>Developed React + TypeScript frontends with reusable component libraries, Next.js SSR, and accessibility-first patterns.</li>
+              <li>Contributed to a RAG assistant over internal documentation using OpenAI / Claude APIs, embeddings, and pgvector.</li>
+              <li>Raised test coverage to <strong>85%</strong> with JUnit 5, Mockito, Jest, and Cypress, reducing production regressions.</li>
+              <li>Worked with CI/CD pipelines (GitHub Actions, Jenkins), feature flags, safe-deploy patterns, and rollback playbooks. Shadowed on-call rotations with CloudWatch.</li>
+            </ul>
+            <div class="timeline-tech">
+              <span class="tag tag-sm">Java</span><span class="tag tag-sm">Spring Boot</span>
+              <span class="tag tag-sm">TypeScript</span><span class="tag tag-sm">React</span>
+              <span class="tag tag-sm">Kubernetes</span><span class="tag tag-sm">AWS EKS</span>
+              <span class="tag tag-sm">RAG</span><span class="tag tag-sm">CI/CD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-company-block">
+                <div class="company-label cleveland-clinic">Cleveland Clinic</div>
+                <h3 class="timeline-role">Software Engineer Intern</h3>
+                <p class="timeline-location">Cleveland, OH</p>
+              </div>
+              <span class="timeline-date">Apr 2023 – Mar 2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built full-stack healthcare applications using React, TypeScript, Node.js, and Python supporting clinical and administrative workflows used by <strong>thousands of internal users</strong>.</li>
+              <li>Developed REST APIs in Spring Boot and FastAPI backed by PostgreSQL and SQL Server, with secure OAuth 2.0 / JWT auth and HIPAA-aware data handling.</li>
+              <li>Maintained CI/CD pipelines with Git, GitHub, Jenkins, Docker, and AWS (EC2, S3, RDS, CloudWatch).</li>
+              <li>Wrote unit tests with Jest, JUnit, and pytest; contributed documentation that improved onboarding for new engineers.</li>
+            </ul>
+            <div class="timeline-tech">
+              <span class="tag tag-sm">React</span><span class="tag tag-sm">Spring Boot</span>
+              <span class="tag tag-sm">FastAPI</span><span class="tag tag-sm">PostgreSQL</span>
+              <span class="tag tag-sm">OAuth 2.0</span><span class="tag tag-sm">Docker</span><span class="tag tag-sm">AWS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education + Certs -->
+      <div class="edu-certs-grid">
+        <div class="edu-card">
+          <div class="edu-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div>
+            <h3 class="edu-school">Cleveland State University</h3>
+            <p class="edu-degree">B.S. Computer Science &mdash; GPA 3.6 / 4.0</p>
+            <p class="edu-date">Aug 2021 – May 2025 &middot; Cleveland, OH</p>
+            <p class="edu-courses">Data Structures &amp; Algorithms, Distributed Systems, Cloud Computing, Machine Learning, Databases, OS, Networks</p>
+          </div>
+        </div>
+
+        <div class="certs-card">
+          <h4 class="certs-title">Certifications</h4>
+          <ul class="certs-list">
+            <li><span class="cert-badge cert-aws">AWS</span>Certified Solutions Architect</li>
+            <li><span class="cert-badge cert-comptia">CompTIA</span>Security+</li>
+            <li><span class="cert-badge cert-comptia">CompTIA</span>Network+</li>
+            <li><span class="cert-badge cert-google">Google</span>Cybersecurity Professional Certificate</li>
+            <li><span class="cert-badge cert-ibm">IBM</span>Full-Stack Development</li>
+            <li><span class="cert-badge cert-amazon">Amazon</span>Software Development</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-eyebrow">Let's Talk</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-sub">
+          I'm actively looking for full-time software engineering roles. Whether you have
+          a position, a project, or just want to connect — I'd love to hear from you.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:santhoshandavar2@gmail.com" class="contact-item">
+            <div class="contact-icon contact-icon-email">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">santhoshandavar2@gmail.com</p>
+            </div>
+            <svg class="contact-arrow" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+
+          <a href="https://github.com/santhoshandavar" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon contact-icon-github">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <p class="contact-value">github.com/santhoshandavar</p>
+            </div>
+            <svg class="contact-arrow" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+
+          <a href="https://linkedin.com/in/santhoshandavar" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon contact-icon-linkedin">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <p class="contact-value">linkedin.com/in/santhoshandavar</p>
+            </div>
+            <svg class="contact-arrow" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <h3 class="form-heading">Send a message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Santhosh Andavar</p>
+      <p class="footer-sub">Full-Stack Software Engineer &middot; Cleveland, OH &middot; 2025</p>
+      <div class="footer-links">
+        <a href="mailto:santhoshandavar2@gmail.com">Email</a>
+        <a href="https://github.com/santhoshandavar" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/santhoshandavar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="Santhosh_Andavar_Resume_General.pdf" download>Resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
